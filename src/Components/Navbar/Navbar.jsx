@@ -10,7 +10,11 @@ function Navbar() {
   return (
     <nav className="navbar">
       <h1>UNISearch</h1>
-      <input type="text" onChange={(e) => dispatchfilter(e.target.value)} />
+      <input
+        placeholder="Search University Name"
+        type="text"
+        onChange={(e) => dispatchfilter(e.target.value)}
+      />
     </nav>
   );
 }

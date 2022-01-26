@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(getUniDetails());
+    dispatch(getUniDetails("India"));
   }, [dispatch]);
   return (
     <div className="App">

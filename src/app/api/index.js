@@ -1,4 +1,4 @@
 import axios from "axios";
 
 export const fetchdata = () =>
-  axios.get("http://universities.hipolabs.com/search?country=United+States");
+  axios.get("http://universities.hipolabs.com/search?country=United+states");

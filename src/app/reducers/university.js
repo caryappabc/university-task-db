@@ -4,8 +4,8 @@ export default (state = [], action) => {
     case "FETCH":
       return action.payload;
     case "FILTER":
-      return;
+      return action.payload;
     default:
-      return state.filter((uni) => uni.name === action.payload);
+      return state;
   }
 };

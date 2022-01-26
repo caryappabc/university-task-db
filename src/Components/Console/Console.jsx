@@ -6,7 +6,7 @@ import "./Console.css";
 function Console({ data }) {
   return (
     <div className="console">
-      <h1 className="heading">Seach any University accross the World</h1>
+      <h1 className="heading">Seach any University in America</h1>
       <CardsContainer />
     </div>
   );
