@@ -1,0 +1,11 @@
+
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    gap: 2rem;
+}

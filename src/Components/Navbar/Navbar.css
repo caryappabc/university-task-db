@@ -1,0 +1,21 @@
+.navbar{
+    height: 4rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #000;
+    
+}
+
+input[type="text"]{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #000;
+}

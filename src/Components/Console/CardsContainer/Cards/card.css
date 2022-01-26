@@ -1,0 +1,23 @@
+
+.card{
+    display: flex;
+    flex-flow: column; 
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 22rem;
+    padding: 2rem;
+    width: 15rem;
+    gap: 1.5rem 0;
+}
+
+a{
+    width: auto;
+    background-color: rgba(250, 114, 114, 0.767);
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 0.5em;
+    color: #fff;
+
+}
